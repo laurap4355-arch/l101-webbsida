@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="sv">
+ <head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kontaktsida</title>
+ </head>
+ 
+ <body> <!-- Sidhuvudet med webbsidans namn och navigationer-->
+   <header>
+       <h1> Lauras första webbsida</h1>
+      <nav>
+         <ul>
+            <li><a href="index.html">Startsida</a></li>
+            <li><a href="hobby.html">Hobbysida</a></li>
+            <li><a href="kontakt.html">kontaktsida</a></li>
+         </ul>
+      </nav>
+    
+   </header>
+
+   <!--Sidans huvudinnehållet -->
+   <main>  
+      <h2>Kontakta mig</h2>
+      <p>Har du frågor? Kontakta mig i formuläret nedanför</p>
+
+      <form> <!--Kontaktformulär med 3 olika inputfält-->
+
+        <label for="name">Ditt namn:</label> <!--Textfält -->
+        <input type="text" id="name" name="name" required>
+        
+        <br><br>
+
+        <label for="email">E-postadress:</label> <!-- E-postfält -->
+        <input type="email" id="email" name="email" required>
+        <br><br>
+      
+        <label for="meddelande">Meddelande:</label> <!-- Textarea-->
+        <br>
+        <textarea id="meddelande" name="meddelande" required></textarea >
+        <br>
+
+        <button type="submit">Skickar</button> <!-- skickar knapp-->
+      </form>
+
+      <p>Om du har några frågor, vänligen kontakta mig på (<a href="mailto:laph2600@student.miun.se"> laph2600@student.miun.se</a> )
+      </p>
+  
+   </main>
+
+    <!-- Sidfot med en länk till kontaktsidan -->
+   <footer>
+        <p> Du kan också nå mig på  <a href="kontakt.html">Kontakta mig</a> </p>
+         <p>© 2026 Laura Pham </p> 
+   </footer>
+
+ </body>
+
+</html>
+

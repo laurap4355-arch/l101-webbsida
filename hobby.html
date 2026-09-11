@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="sv">
+ <head>
+    <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hobbysida</title>
+ </head>
+ 
+ <body> <!-- Sidhuvudet med webbens namn och navigationer -->
+   <header>
+           <h1> Lauras första webbsida</h1>
+
+      <nav>
+         <ul>
+            <li><a href="index.html">Startsida</a></li>
+            <li><a href="hobby.html">Hobbysida</a></li>
+            <li><a href="kontakt.html">kontaktsida</a></li>
+         </ul>
+      </nav>
+
+   </header>
+
+   <!--Sidans huvudinnehållet där jag visar skriva beskrivningar och visar upp bilder som jag har tagits-->
+   <main> 
+     <h2> Min hobby: Fotografering</h2>
+     <p>Jag tycker om att fotografera olika miljöer, människor och speciella ögonblick.
+     Efteråt brukar jag redigera bilderna och videorna för att förbättra färger,
+     ljus och uttryck. </p>
+
+     <p> Nedan visar jag några exempel på mitt arbete:</p>
+     <img src="images/Bild_1.JPG" alt="En klosterkyrka fotograferad utifrån" width="350">
+     <img src="images/Bild_2.JPG" alt=" En reklambild som jag har skapat och designat" width="350" height="483">
+     <img src="images/Bild_3.JPG" alt=" Fåglar som sitter utomhus " width="350">
+
+     <!--En tabell som kopplar om mitt intress där jag berätta vad är mon favoritmotiv är-->
+     <h2>Faktatabell om min hobby</h2>
+
+     <!-- Border här innebär att jag gör linjer runt tabellen så att rader och kolumner syns tydligare.
+     Border bör egentligen anges i CSS. W3C-validatorn visar inga fel
+     eller varningar, endast ett informationsmeddelande." -->
+     <table border="1">  
+        <caption>Min favoritmotiv</caption>
+        <thead>
+            <tr>
+                <th>Motiv</th>
+                <th>Plats</th>
+               <th>Kamera</th>
+               <th>Svårighetsgrad</th>
+            </tr>
+        </thead>
+
+         <!-- Här nedan för är 3 datarader som är kopplad till de 3 kolummmer: Motiv, Plats, Kamera, Svårighetsgrad-->
+        <tbody>
+            <tr>
+                <td>Solnedgång</td>
+                <td>stranden</td>
+                <td>Mobil</td>
+                <td>Lätt</td>
+            </tr>
+            <tr>
+                <td>Natur</td>
+                <td>Parken</td>
+                <td>Kamera</td>
+                <td>medel</td>
+            </tr>
+            <tr>
+                <td>Byggnader</td>
+                <td>Ute</td>
+                <td>Kamera</td>
+                <td>Medel</td>
+            </tr>
+
+
+        </tbody>
+
+     </table>
+
+      <!--Länk till Wikipedia-->
+     <p> Om du vill läsa mer om fotografering, klicka på länken:
+     <a href="https://sv.wikipedia.org/wiki/Fotografi" 
+         target="_blank"
+         rel="noopener"> Wikipedia</a>
+    </p>
+   </main>
+
+        <!-- Sidfot med en länk till kontaktsidan -->
+    <footer>
+         <p> Om du har några frågor, vänligen kontakta mig vid <a href="kontakt.html">Kontakta mig</a> </p>
+         <p>© 2026 Laura Pham </p> 
+    </footer>
+  
+
+ </body>
+
+</html>
+
