@@ -5,7 +5,6 @@
 Detta är en webbplats som skapades i Laboration 1.
 
 Webbplatsen handlar om att jag presentera mig själv, mina intressen och hobbyer.
-Här presenteras information, bilder och innehåll som hör till mina hobbyer.
 
 ## Teknik
 
@@ -17,7 +16,7 @@ Webbplatsen är skapad med:
 
 ## Publicerade versioner
 
-- [GitHub Pages](https://laurap4355-arch.github.io/l101-webbsida/)
+- [GitHub Pages] (https://laurap4355-arch.github.io/l101-webbsida/)
 - [Netlify] (https://lustrous-peony-8fed5f.netlify.app)
 
 ## Git-frågor
@@ -28,12 +27,6 @@ Webbplatsen är skapad med:
 
 `git commit` sparar de valda ändringarna som en ny version i Git.
 
-Exempel:
-
-```bash
-git add .
-git commit -m "Add new content"
-```
 
 ### Varför använder man branches istället för att arbeta direkt i `main`?
 
@@ -41,11 +34,13 @@ Man använder branches för att kunna utveckla och testa nya ändringar utan att
 
 I detta projekt användes branchen `dev` för att lägga till en ny bild. Därefter mergades ändringen tillbaka till `main`.
 
+
 ### Vad händer rent praktiskt när man gör en merge?
 
 När man gör en merge kombineras ändringarna från en branch med en annan branch.
 
 I detta projekt mergades `dev` in i `main`. Det betyder att ändringarna som gjordes i `dev` blev en del av huvudversionen i `main`.
+
 
 ### Vad är skillnaden mellan att pusha till GitHub och att publicera på Netlify?
 
@@ -54,6 +49,7 @@ I detta projekt mergades `dev` in i `main`. Det betyder att ändringarna som gjo
 Netlify publicerar webbplatsen så att andra kan besöka den på Internet.
 
 När Netlify är kopplat till GitHub kan en ny `git push` automatiskt starta en ny publicering på Netlify.
+
 
 ### Hur exkluderar man en fil från versionshanteringen?
 
